@@ -1,0 +1,229 @@
+{
+    "id": "198a7a64-6e7c-467a-80b2-1956667c3e08",
+    "created_at": "2022-09-14T09:47:57Z",
+    "update_at": "2022-09-14T09:50:16Z",
+    "global_timeout": 90,
+    "tunnel_name": "",
+    "start_time": "2022-09-14T09:48:29Z",
+    "end_time": "2022-09-14T09:50:16Z",
+    "summary": {
+        "total_time": 139000000000,
+        "execution_time": 107000000000,
+        "total_tasks": 3,
+        "build_time_consumed": 303000000000,
+        "jobTestExecutionTime": "15s",
+        "failed_tasks": 0,
+        "total_stage_info": {
+            "postrun": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 3
+            },
+            "prerun": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 3
+            },
+            "scenario": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 3
+            },
+            "test_discovery": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 3
+            }
+        },
+        "status": "completed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=198a7a64-6e7c-467a-80b2-1956667c3e08"
+    },
+    "tasks": [
+        {
+            "id": "b9217474-96d5-4dba-a316-ca6e0d8f3e75",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2022-09-14T09:48:28Z",
+            "update_at": "2022-09-14T09:50:12Z",
+            "start_time": "2022-09-14T09:48:29Z",
+            "end_time": "2022-09-14T09:50:12Z",
+            "group_number": 1,
+            "stages": [
+                {
+                    "id": "9aafcef2-2c1a-4238-ac87-2a812a8f444e",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2022-09-14T09:49:01Z",
+                    "started_at": "2022-09-14T09:49:02Z",
+                    "updated_at": "2022-09-14T09:49:25Z",
+                    "order": 2
+                },
+                {
+                    "id": "c2c8ca6c-142b-4242-ab7b-76fe8584aed3",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2022-09-14T09:49:27Z",
+                    "started_at": "2022-09-14T09:49:28Z",
+                    "updated_at": "2022-09-14T09:49:29Z",
+                    "order": 3
+                },
+                {
+                    "id": "73c718e3-ec5e-4e7f-b981-a538260c2bc4",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "\"ipadtest\"",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2022-09-14T09:49:31Z",
+                    "started_at": "2022-09-14T09:49:34Z",
+                    "updated_at": "2022-09-14T09:49:58Z",
+                    "order": 4
+                },
+                {
+                    "id": "50570a9d-998a-4a18-8f7e-6bc4d1098311",
+                    "type": "postrun",
+                    "status": "completed",
+                    "name": "post",
+                    "iteration": 0,
+                    "link": "post.log",
+                    "created_at": "2022-09-14T09:49:31Z",
+                    "started_at": "2022-09-14T09:50:08Z",
+                    "updated_at": "2022-09-14T09:50:10Z",
+                    "order": 5
+                }
+            ]
+        },
+        {
+            "id": "b1b9d1ce-5f01-4cf9-9d67-b774d6eae81c",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2022-09-14T09:48:28Z",
+            "update_at": "2022-09-14T09:50:02Z",
+            "start_time": "2022-09-14T09:48:29Z",
+            "end_time": "2022-09-14T09:50:02Z",
+            "group_number": 2,
+            "stages": [
+                {
+                    "id": "5037c6b2-325e-4c5f-8642-97a930e1c87e",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2022-09-14T09:48:54Z",
+                    "started_at": "2022-09-14T09:48:56Z",
+                    "updated_at": "2022-09-14T09:49:15Z",
+                    "order": 2
+                },
+                {
+                    "id": "6c2ae369-d95c-49dc-b285-d6fd893df43b",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2022-09-14T09:49:16Z",
+                    "started_at": "2022-09-14T09:49:17Z",
+                    "updated_at": "2022-09-14T09:49:18Z",
+                    "order": 3
+                },
+                {
+                    "id": "3b1dd00b-1055-4691-8003-bced248b2211",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "\"iphonetest\"",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2022-09-14T09:49:20Z",
+                    "started_at": "2022-09-14T09:49:24Z",
+                    "updated_at": "2022-09-14T09:49:48Z",
+                    "order": 4
+                },
+                {
+                    "id": "3ebefeeb-d5b7-44c7-9fbf-a756993ec17f",
+                    "type": "postrun",
+                    "status": "completed",
+                    "name": "post",
+                    "iteration": 0,
+                    "link": "post.log",
+                    "created_at": "2022-09-14T09:49:20Z",
+                    "started_at": "2022-09-14T09:49:58Z",
+                    "updated_at": "2022-09-14T09:50:00Z",
+                    "order": 5
+                }
+            ]
+        },
+        {
+            "id": "76b76256-a27f-4e08-ad16-9bb1f891fd63",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2022-09-14T09:48:28Z",
+            "update_at": "2022-09-14T09:50:16Z",
+            "start_time": "2022-09-14T09:48:29Z",
+            "end_time": "2022-09-14T09:50:16Z",
+            "group_number": 3,
+            "stages": [
+                {
+                    "id": "ce4464ec-c268-4947-9514-f757c4044ca0",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2022-09-14T09:49:02Z",
+                    "started_at": "2022-09-14T09:49:03Z",
+                    "updated_at": "2022-09-14T09:49:29Z",
+                    "order": 2
+                },
+                {
+                    "id": "8e448788-e30b-4cb0-9a9e-dc25a60449a6",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2022-09-14T09:49:30Z",
+                    "started_at": "2022-09-14T09:49:31Z",
+                    "updated_at": "2022-09-14T09:49:32Z",
+                    "order": 3
+                },
+                {
+                    "id": "f52d9f2b-119b-4a17-aab6-93b9c1c18a5e",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "\"single\"",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2022-09-14T09:49:34Z",
+                    "started_at": "2022-09-14T09:49:38Z",
+                    "updated_at": "2022-09-14T09:50:02Z",
+                    "order": 4
+                },
+                {
+                    "id": "b2781707-dfe5-4b2d-92ff-d3a0a2b8485c",
+                    "type": "postrun",
+                    "status": "completed",
+                    "name": "post",
+                    "iteration": 0,
+                    "link": "post.log",
+                    "created_at": "2022-09-14T09:49:34Z",
+                    "started_at": "2022-09-14T09:50:13Z",
+                    "updated_at": "2022-09-14T09:50:14Z",
+                    "order": 5
+                }
+            ]
+        }
+    ]
+}

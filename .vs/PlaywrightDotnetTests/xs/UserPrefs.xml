@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{63282C18-C84C-4986-90D9-A001624007D9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument=".gitignore">
+    <Files>
+      <File FileName="PlaywrightTestSingle.cs" Line="43" Column="1" />
+      <File FileName="Program.cs" Line="20" Column="31" />
+      <File FileName="hyperexecute.yaml" Line="47" Column="22" />
+      <File FileName="Autosplit.yaml" Line="12" Column="1" />
+      <File FileName=".gitignore" Line="2" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PlaywrightDotnetTests" expanded="True">
+            <Node name="PlaywrightDotnetTests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
