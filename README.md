@@ -206,10 +206,6 @@ HyperExecute also facilitates the provision to download the artifacts on your lo
 
 <img width="1425" alt="Playwright_autosplit_artefacts_1" src="https://user-images.githubusercontent.com/1688653/160453348-67a416d9-ec37-4467-9a51-1b20484f39f1.png">
 
-Now, you can download the artifacts by clicking on the Download button as shown below:
-
-<img width="1425" alt="Playwright_autosplit_artefacts_2" src="https://user-images.githubusercontent.com/1688653/160453362-aa371377-0d81-4140-8a7a-b6170310ac15.png">
-
 ### Test Execution
 
 The CLI option _--config_ is used for providing the custom HyperExecute YAML file (i.e. _yaml/win/dotnet_playwright_hyperexecute_autosplit_sample.yaml_ for Windows and _yaml/linux/dotnet_playwright_hyperexecute_autosplit_sample.yaml_ for Linux).
