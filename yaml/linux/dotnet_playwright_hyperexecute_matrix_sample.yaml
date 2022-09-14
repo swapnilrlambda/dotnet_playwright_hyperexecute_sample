@@ -41,8 +41,7 @@ runtime:
   
 
 post:
-  - cat hyperexecute.yaml
-
+  - cat yaml/linux/dotnet_playwright_hyperexecute_matrix_sample.yaml
 
 testSuites:
   - dotnet run $tests

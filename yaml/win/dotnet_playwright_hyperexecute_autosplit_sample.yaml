@@ -47,7 +47,7 @@ testDiscovery:
   
 
 post:
-  - cat Autosplit.yaml
+  - cat yaml/win/dotnet_playwright_hyperexecute_autosplit_sample.yaml
 
 
 testRunnerCommand: dotnet run $test

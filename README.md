@@ -232,13 +232,11 @@ Run the following command on the terminal to trigger Playwright tests on the Lin
 
 Visit [HyperExecute Automation Dashboard](https://automation.lambdatest.com/hyperexecute) to check the status of execution
 
-<img width="1414" alt="Playwright_autosplit_execution" src="https://user-images.githubusercontent.com/1688653/160453348-67a416d9-ec37-4467-9a51-1b20484f39f1.png">
+<img width="1414" alt="Playwright_autosplit_execution" src="images/dashboard.png">
 
 Shown below is the execution screenshot when the YAML file is triggered from the terminal:
 
-<img width="1412" alt="Playwright_autosplit_cli1_execution" src="https://user-images.githubusercontent.com/1688653/159763098-bbb5af76-bf4f-42f3-a4f0-fc1dda8347b3.png">
-
-<img width="1408" alt="Playwright_autosplit_cli2_execution" src="https://user-images.githubusercontent.com/1688653/159763105-58c49a6b-68e2-4e1e-a413-b03dc23ad03d.png">
+<img width="1412" alt="Playwright_autosplit_cli1_execution" src="images/cli.png">
 
 # Matrix Execution with Playwright
 
@@ -351,13 +349,11 @@ Run the following command on the terminal to trigger Playwright tests on the Lin
 
 Visit [HyperExecute Automation Dashboard](https://automation.lambdatest.com/hyperexecute) to check the status of execution:
 
-<img width="1414" alt="Playwright_matrix_execution" src="https://user-images.githubusercontent.com/1688653/160452786-e60e6ee2-b0e9-4248-81aa-ca07ecbfdd1f.png">
+<img width="1414" alt="Playwright_matrix_execution" src="images/dashboard.png">
 
 Shown below is the execution screenshot when the YAML file is triggered from the terminal:
 
-<img width="1413" alt="Playwright_cli1_execution" src="https://user-images.githubusercontent.com/1688653/159763909-305b13b7-df13-43de-b115-09565387edce.png">
-
-<img width="1101" alt="Playwright_cli2_execution" src="https://user-images.githubusercontent.com/1688653/159763911-61ba72e1-ed47-40c8-914a-2a8e3ab8db2a.png">
+<img width="1413" alt="Playwright_cli1_execution" src="images/cli.png">
 
 ## Secrets Management
 
@@ -375,18 +371,6 @@ All you need to do is create an environment variable that uses the secret key:
 env:
   PAT: ${{ .secrets.testKey }}
 ```
-
-## Navigation in Automation Dashboard
-
-HyperExecute lets you navigate from/to _Test Logs_ in Automation Dashboard from/to _HyperExecute Logs_. You also get relevant get relevant Playwright test details like video, network log, commands, Exceptions & more in the Dashboard. Effortlessly navigate from the automation dashboard to HyperExecute logs (and vice-versa) to get more details of the test execution.
-
-Shown below is the HyperExecute Automation dashboard which also lists the tests that were executed as a part of the test suite:
-
-<img width="1429" alt="dotnet_playwright_hyperexecute_automation_dashboard" src="https://user-images.githubusercontent.com/1688653/160452786-e60e6ee2-b0e9-4248-81aa-ca07ecbfdd1f.png">
-
-Here is a screenshot that lists the automation test that was executed on the HyperExecute grid:
-
-<img width="1429" alt="Playwright_testing_automation_dashboard" src="https://user-images.githubusercontent.com/1688653/159763904-c5c6e1f2-394b-48b0-aadf-541a7c9dbeae.png">
 
 ## LambdaTest Community :busts_in_silhouette:
 
