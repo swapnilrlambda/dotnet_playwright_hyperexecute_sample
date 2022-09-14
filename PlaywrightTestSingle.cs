@@ -19,8 +19,8 @@ class PlaywrightTestSingle
         Dictionary<string, string> ltOptions = new Dictionary<string, string>();
 
         ltOptions.Add("name", "Playwright Test");
-        ltOptions.Add("build", "Playwright C-Sharp tests");
-        ltOptions.Add("platform", "Windows 10");
+        ltOptions.Add("build", "Playwright C-Sharp tests on Hyperexecute");
+        ltOptions.Add("platform", Environment.GetEnvironmentVariable("HYPEREXECUTE_PLATFORM"));
         ltOptions.Add("user", user);
         ltOptions.Add("accessKey", accessKey);
 
