@@ -218,14 +218,6 @@ Run the following command on the terminal to trigger Playwright tests on the Win
 ./hyperexecute --config yaml/win/dotnet_playwright_hyperexecute_autosplit_sample.yaml --force-clean-artifacts --download-artifacts
 ```
 
-#### Execute Playwright tests using Autosplit mechanism on Linux platform
-
-Run the following command on the terminal to trigger Playwright tests on the Linux platform. The _--download-artifacts_ option is used to inform HyperExecute to download the artifacts for the job. The _--force-clean-artifacts_ option force cleans any existing artifacts for the project.
-
-```bash
-./hyperexecute --config yaml/linux/dotnet_playwright_hyperexecute_autosplit_sample.yaml --force-clean-artifacts --download-artifacts
-```
-
 Visit [HyperExecute Automation Dashboard](https://automation.lambdatest.com/hyperexecute) to check the status of execution
 
 <img width="1414" alt="Playwright_autosplit_execution" src="images/dashboard.png">
