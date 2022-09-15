@@ -100,7 +100,7 @@ For more information about auto-split execution, check out the [Auto-Split Getti
 
 ### Core
 
-Auto-split YAML file (_yaml/win/dotnet_playwright_hyperexecute_autosplit_sample.yaml_) in the repo contains the following configuration:
+Auto-split YAML file (_yaml/dotnet_playwright_hyperexecute_autosplit_sample.yaml_) in the repo contains the following configuration:
 
 ```yaml
 globalTimeout: 150
@@ -160,7 +160,7 @@ Steps (or commands) that need to run after the test execution are listed in the 
 
 ```yaml
 post:
-  - cat yaml/win/dotnet_playwright_hyperexecute_autosplit_sample.yaml
+  - cat yaml/dotnet_playwright_hyperexecute_autosplit_sample.yaml
 ```
 
 The _testDiscovery_ directive contains the command that gives details of the mode of execution, along with detailing the command that is used for test execution. Here, we are fetching the list of test names that would be further passed in the _testRunnerCommand_
@@ -208,14 +208,14 @@ HyperExecute also facilitates the provision to download the artifacts on your lo
 
 ### Test Execution
 
-The CLI option _--config_ is used for providing the custom HyperExecute YAML file (i.e. _yaml/win/dotnet_playwright_hyperexecute_autosplit_sample.yaml_ for Windows and _yaml/linux/dotnet_playwright_hyperexecute_autosplit_sample.yaml_ for Linux).
+The CLI option _--config_ is used for providing the custom HyperExecute YAML file (i.e. _yaml/dotnet_playwright_hyperexecute_autosplit_sample.yaml).
 
 #### Execute Playwright tests using Autosplit mechanism on Windows platform
 
 Run the following command on the terminal to trigger Playwright tests on the Windows platform. The _--download-artifacts_ option is used to inform HyperExecute to download the artifacts for the job. The _--force-clean-artifacts_ option force cleans any existing artifacts for the project.
 
 ```bash
-./hyperexecute --config yaml/win/dotnet_playwright_hyperexecute_autosplit_sample.yaml --force-clean-artifacts --download-artifacts
+./hyperexecute --config yaml/dotnet_playwright_hyperexecute_autosplit_sample.yaml --force-clean-artifacts --download-artifacts
 ```
 
 Visit [HyperExecute Automation Dashboard](https://automation.lambdatest.com/hyperexecute) to check the status of execution
@@ -234,7 +234,7 @@ Also, the _key:value_ pairs are opaque strings for HyperExecute. For more inform
 
 ### Core
 
-In the current example, matrix YAML file (_yaml/win/dotnet_playwright_hyperexecute_matrix_sample.yaml_) in the repo contains the following configuration:
+In the current example, matrix YAML file (_yaml/dotnet_playwright_hyperexecute_matrix_sample.yaml_) in the repo contains the following configuration:
 
 ```yaml
 globalTimeout: 150
@@ -292,7 +292,7 @@ Steps (or commands) that need to run after the test execution are listed in the 
 
 ```yaml
 post:
-  - cat yaml/win/dotnet_playwright_hyperexecute_matrix_sample.yaml
+  - cat yaml/dotnet_playwright_hyperexecute_matrix_sample.yaml
 ```
 
 ### Artifacts Management
@@ -317,22 +317,14 @@ HyperExecute also facilitates the provision to download the artifacts on your lo
 
 ## Test Execution
 
-The CLI option _--config_ is used for providing the custom HyperExecute YAML file (i.e. _yaml/win/dotnet_playwright_hyperexecute_matrix_sample.yaml_ for Windows and _yaml/linux/dotnet_playwright_hyperexecute_matrix_sample.yaml_ for Linux).
+The CLI option _--config_ is used for providing the custom HyperExecute YAML file (i.e. _yaml/dotnet_playwright_hyperexecute_matrix_sample.yaml).
 
 #### Execute Playwright tests using Matrix mechanism on Windows platform
 
 Run the following command on the terminal to trigger Playwright tests on the Windows platform. The _--download-artifacts_ option is used to inform HyperExecute to download the artifacts for the job. The _--force-clean-artifacts_ option force cleans any existing artifacts for the project.
 
 ```bash
-./hyperexecute --config yaml/win/dotnet_playwright_hyperexecute_matrix_sample.yaml --force-clean-artifacts --download-artifacts
-```
-
-#### Execute Playwright tests using Matrix mechanism on Linux platform
-
-Run the following command on the terminal to trigger Playwright tests on the Linux platform. The _--download-artifacts_ option is used to inform HyperExecute to download the artifacts for the job. The _--force-clean-artifacts_ option force cleans any existing artifacts for the project.
-
-```bash
-./hyperexecute --config yaml/linux/dotnet_playwright_hyperexecute_matrix_sample.yaml --force-clean-artifacts --download-artifacts
+./hyperexecute --config yaml/dotnet_playwright_hyperexecute_matrix_sample.yaml --force-clean-artifacts --download-artifacts
 ```
 
 Visit [HyperExecute Automation Dashboard](https://automation.lambdatest.com/hyperexecute) to check the status of execution:
