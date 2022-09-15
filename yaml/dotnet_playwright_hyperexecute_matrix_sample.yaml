@@ -40,7 +40,7 @@ runtime:
   
 
 post:
-  - cat yaml/win/dotnet_playwright_hyperexecute_matrix_sample.yaml
+  - cat yaml/dotnet_playwright_hyperexecute_matrix_sample.yaml
 
 
 testSuites:
