@@ -42,8 +42,8 @@ runtime:
 
 testDiscovery:
   type: raw
-  mode: static
-  command: grep "case" Program.cs | awk '{print$2}' | sed 's/://g'
+  mode: dynamic
+  command: grep -lr 'GotoAsync' -ir --include=*.cs
   
 
 post:
