@@ -50,4 +50,4 @@ post:
   - cat yaml/dotnet_playwright_hyperexecute_autosplit_sample.yaml
 
 
-testRunnerCommand: dotnet run $tests
+testRunnerCommand: dotnet run $test
