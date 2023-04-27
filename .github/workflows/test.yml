@@ -1,7 +1,5 @@
 name: test
 on:
-  schedule:
-    - cron: '30 5,12 * * *'
   workflow_dispatch:
   
 jobs:
