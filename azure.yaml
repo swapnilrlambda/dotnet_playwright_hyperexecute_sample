@@ -1,0 +1,10 @@
+trigger:
+- main
+
+pool:
+  vmImage: windows-latest
+  
+steps: 
+- script: |
+          curl -O https://downloads.lambdatest.com/hyperexecute/windows/hyperexecute.exe 
+          hyperexecute.exe -u swapnilr -k dhaSkMbveBHarx1CYczgPiYQwAaiE1fQTc2Td64LAxO4nQ4l5d -i yaml/dotnet_playwright_hyperexecute_autosplit_sample.yaml
